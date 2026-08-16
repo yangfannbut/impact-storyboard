@@ -1,9 +1,10 @@
 <template>
-  <div class="min-h-screen bg-gray-50 py-10 font-sans text-gray-900">
+  <div class="min-h-screen bg-gray-50 py-4 font-sans text-gray-900">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <TheHeader />
       
       <!-- Page Header -->
-      <header class="mb-12 text-center pt-8">
+      <header class="mb-12 text-center pt-4">
         <!-- text-gray-900 ensures maximum contrast for the main heading -->
         <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-gray-900 mb-4">
           Community Impact
@@ -93,6 +94,7 @@ import { ref, onMounted } from 'vue';
 import { fetchStories } from './services/api.js';
 
 // Import all child components
+import TheHeader from './components/TheHeader.vue'; 
 import StoryCard from './components/StoryCard.vue';
 import SkeletonCard from './components/SkeletonCard.vue';
 import ImpactHero from './components/ImpactHero.vue';

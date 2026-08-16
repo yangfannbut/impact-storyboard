@@ -56,4 +56,6 @@ To run this project locally on your machine:
 	Build for production:
 
 	Bash
+
 	npm run build
+
