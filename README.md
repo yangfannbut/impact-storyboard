@@ -57,7 +57,8 @@ To run this project locally on your machine:
 	Bash
 	npm run build
 3. 📂 Folder Structure
-	Plaintext
+	
+	
 	src/
 	 ├── components/       # Reusable Vue components (StoryCard, Lightbox, etc.)
 	 ├── mock/             # JSON files simulating database records
