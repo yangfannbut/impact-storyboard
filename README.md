@@ -42,7 +42,8 @@ To run this project locally on your machine:
 
 1. **Clone the repository:**
    
-   git clone [https://github.com/](https://github.com/) yangfannbut/impact-storyboard.git
+   git clone [https://github.com/](https://github.com/)yangfannbut/impact-storyboard.git
+
    cd impact-storyboard
 
 2. Install dependencies:
