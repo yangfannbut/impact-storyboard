@@ -47,15 +47,13 @@ To run this project locally on your machine:
    cd impact-storyboard
 
 2. Install dependencies:
-
 	npm install
-	Start the development server:
 
-	Bash
+
+	Start the development server:	
 	npm run dev
+
+
 	Build for production:
-
-	Bash
-
 	npm run build
 
