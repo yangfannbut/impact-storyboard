@@ -7,7 +7,7 @@
 A responsive, accessible, and performant frontend demonstration built with Vue 3 and Tailwind CSS. This project is specifically designed to showcase modern web development practices tailored for Non-Profit Organizations (NPOs) and community-driven initiatives.
 
 ## 🚀 Live Demo
-**[View the Live Application Here](https://<your-username>.github.io/impact-storyboard/)**
+**[View the Live Application Here](https://yangfannbut.github.io/impact-storyboard/)**
 
 *(Note: Deployed automatically via GitHub Actions CI/CD pipeline).*
 
@@ -42,7 +42,7 @@ To run this project locally on your machine:
 
 1. **Clone the repository:**
    
-   git clone [https://github.com/](https://github.com/) <your-username>/impact-storyboard.git
+   git clone [https://github.com/](https://github.com/) yangfannbut/impact-storyboard.git
    cd impact-storyboard
 
 2. Install dependencies:
