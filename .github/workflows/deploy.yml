@@ -1,0 +1,31 @@
+# 自动部署脚本
+name: Deploy to GitHub Pages
+
+# 触发条件：当向 main 分支 push 代码时执行
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码 (Checkout)
+        uses: actions/checkout@v3
+
+      - name: 安装 Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20' # 使用较新的稳定版本
+
+      - name: 安装项目依赖包
+        run: npm install
+
+      - name: 编译打包项目
+        run: npm run build
+
+      - name: 部署到 gh-pages 分支
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist # Vite 默认打包生成的文件夹

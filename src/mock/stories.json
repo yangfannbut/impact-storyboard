@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "author": "Sarah Jenkins",
+    "role": "Volunteer Mentor",
+    "title": "Connecting Through Code: My First Mentorship Experience",
+    "summary": "While helping the kids understand logic loops, I discovered that patience and visual explanations are far more impactful than the code itself...",
+    "imageUrl": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80",
+    "tags": ["Tech Mentorship", "Community"],
+    "date": "2026-08-10"
+  },
+  {
+    "id": 2,
+    "author": "David Chen",
+    "role": "Parent",
+    "title": "A Positive Impact on Our Family",
+    "summary": "Through the foundation's weekend workshops, we not only found invaluable support but also connected with other families navigating similar challenges.",
+    "imageUrl": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=800&q=80",
+    "tags": ["Family Support", "Workshop"],
+    "date": "2026-08-12"
+  }
+]
